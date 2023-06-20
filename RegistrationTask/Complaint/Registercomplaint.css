@@ -2,6 +2,9 @@
     padding: 1vw 10vw;
     gap: 5vw;
 }
+.compaint-detailes input{
+    border-radius: 5px;
+}
 .complaint-buttons{
     justify-content: center;
     gap: 10px;
@@ -16,7 +19,7 @@
   }
   #complaint-status {
     padding: 10px 10px;
-    background-color: rgb(46, 105, 215);
+    background-color: rgb(28, 127, 209);
     color: white;
     border: none;
     border-radius: 10px;
@@ -25,4 +28,5 @@
   .complaint-number{
     padding: 1vw 5vw;
     gap: 10px;
+    font-size: 1.5vw;
   }
