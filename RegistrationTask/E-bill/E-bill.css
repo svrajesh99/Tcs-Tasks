@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+}
+.column-flex{
+    display: flex;
+    flex-direction: column;
+}
+.ebill-navbar{
+    padding: 1vw 10vw;
+    justify-content: flex-start;
+    gap: 2vw;
+    font-size: 2vw;
+    background-color: rgb(199, 199, 199);
+}
+.ebill-welcome{
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1vw 10vw;
+    font-size: 2vw;
+    gap :2vw;
+}
+.ebill-welcome button{
+padding: 5px 10px;
+background-color: orange;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+.view-bill{
+    background-color: rgb(28, 119, 200);
+    justify-content: space-between;
+    padding: 1vw 10vw;
+    font-size: 2vw;
+    color: white;
+}
+.table{
+    padding: 1vw 10vw;
+    
+}
+.table-heading{
+    background-color: gray;
+    color: white;
+}
+.table table{
+    border: 1px solid;
+    width: 80vw;
+}
+td,th{
+    padding: 5px;
+}
+.total-bill{
+    padding: 1vw 10vw;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.total-bill h4{
+    color: red;
+}
+.total-bill p{
+    color: rgb(236, 92, 92);
+}
+.proceedtopay{
+    padding: 1vw 10vw;
+    text-align: center;
+}
+#proceedtopay{
+    padding: 5px 15px;
+    background-color: rgb(89, 173, 236);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-bill</title>
+    <link rel="stylesheet" href="E-bill.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e4c87a6365.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="ebill-navbar row-flex">
+      <span>Home</span>
+      <span>Pay Bill</span>
+      <span>Register Complaint</span>
+      <span>Complaint Status</span>
+    </div>
+    <div class="row-flex ebill-welcome">
+      <label>Welcome</label>:
+      <p>Customer</p>
+      <button>Logout <i class="fa fa-sign-out"></i></button>
+    </div>
+    <div class="row-flex view-bill">
+      <h4>View Bill & Pay</h4>
+      <p>
+        <i
+          class="fa-duotone fa-greater-than fa-xl"
+          style="--fa-primary-color: #dbe5f5; --fa-secondary-color: #dbe5f5"
+        ></i>
+
+        <i
+          class="fa-duotone fa-greater-than fa-2xl"
+          style="--fa-primary-color: #dbe5f5; --fa-secondary-color: #dbe5f5"
+        ></i>
+      </p>
+    </div>
+    <div class="table">
+      <table>
+        <tr class="table-heading">
+          <th>Customer Number</th>
+          <th>Select</th>
+          <th>Due Amount</th>
+          <th>Payable(₹)</th>
+        </tr>
+        <tr>
+          <td>123456789</td>
+          <td>
+            <input type="checkbox" name="" id="" />
+          </td>
+          <td>0.00</td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <td>123456789</td>
+          <td>
+            <input type="checkbox" name="" id="" />
+          </td>
+          <td>0.00</td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <td>123456789</td>
+          <td>
+            <input type="checkbox" name="" id="" />
+          </td>
+          <td>2080.00</td>
+          <td>2080.00</td>
+        </tr>
+      </table>
+    </div>
+    <div class="row-flex total-bill">
+        <h4>Total Amount Payable :</h4>
+        <p>₹ 2080.00</p>
+    </div>
+    <div class="proceedtopay">
+        <button id="proceedtopay"> Proceed To Pay</button>
+    </div>
+  </body>
+</html>
