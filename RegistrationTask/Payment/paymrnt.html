@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="../E-bill/E-bill.css" />
+    <link rel="stylesheet" href="payment.css" />
+    <script
+      src="https://kit.fontawesome.com/e4c87a6365.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="ebill-navbar row-flex">
+      <span>Home</span>
+      <span>Pay Bill</span>
+      <span>Register Complaint</span>
+      <span>Complaint Status</span>
+    </div>
+    <div class="row-flex ebill-welcome">
+      <label>Welcome</label>:
+      <p>Customer</p>
+      <button>Logout <i class="fa fa-sign-out"></i></button>
+    </div>
+    <div class="row-flex view-bill">
+      <h4>Paymeny Done Successfully</h4>
+      <p>
+        <i
+          class="fa-duotone fa-greater-than fa-xl"
+          style="--fa-primary-color: #dbe5f5; --fa-secondary-color: #dbe5f5"
+        ></i>
+        <i
+          class="fa-duotone fa-greater-than fa-2xl"
+          style="--fa-primary-color: #dbe5f5; --fa-secondary-color: #dbe5f5"
+        ></i>
+      </p>
+    </div>
+    <div class="row-flex total-pay">
+      <p>Total Amount Paid:</p>
+      <p>₹ 2080.00</p>
+    </div>
+    <div class="paymentmode">
+        KSEB ONLINE PAYMENT-TRANSACTION DETAILES
+    </div>
+    <div class="paytable table">
+        <table>
+            <tr class="table-heading">
+                <th>Transaction number</th>
+                <th>Reciept number</th>
+                <th>Transaction Date</th>
+                <th>Transaction type</th>
+                <th>Payment type</th>
+                <th>Payment gateway</th>
+                <th>section</th>
+                <th>Custemer number</th>
+                <th>Paid Amount</th>
+            </tr>
+            <tr >
+                <td>123456789</td>
+                <td>7539851455285</td>
+                <td>2022-02-10 12:05:18</td>
+                <td>DC</td>
+                <td>Registered User</td>
+                <td>EFG</td>
+                <td>ABC</td>
+                <td>1122334455667788</td>
+                <td>2080.00</td>
+            </tr>
+            <tr >
+                <td>9876543210</td>
+                <td>89543218654321</td>
+                <td>2022-02-10 12:05:18</td>
+                <td>DC</td>
+                <td>Registered User</td>
+                <td>EFG</td>
+                <td>ABC</td>
+                <td>1122334455667788</td>
+                <td>1880.00</td>
+            </tr>
+           
+        </table>
+    </div>
+    <div class="pay-buttons row-flex">
+        <button id="pay-backtohome">Back to Home</button>
+        <button id="pay-download">Download</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.total-pay {
+  padding: 1vw 10vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5vw;
+  gap: 5vw;
+}
+.paymentmode {
+  background-color: rgb(28, 119, 200);
+  justify-content: space-between;
+  padding: 1vw 10vw;
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 400;
+}
+.paytable td,
+th {
+  padding: 10px;
+}
+.pay-buttons {
+  padding: 1vw 10vw;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+}
+#pay-backtohome {
+  padding: 10px 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#pay-download {
+  padding: 10px 10px;
+  background-color: rgb(46, 105, 215);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

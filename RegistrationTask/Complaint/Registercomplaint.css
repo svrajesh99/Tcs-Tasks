@@ -1,0 +1,28 @@
+.compaint-detailes{
+    padding: 1vw 10vw;
+    gap: 5vw;
+}
+.complaint-buttons{
+    justify-content: center;
+    gap: 10px;
+}
+#complaint-reset {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #complaint-status {
+    padding: 10px 10px;
+    background-color: rgb(46, 105, 215);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .complaint-number{
+    padding: 1vw 5vw;
+    gap: 10px;
+  }
